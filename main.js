@@ -36,11 +36,11 @@ do {
   number = prompt("Provide a number");
 
   if (number > randomNumber) {
-    console.log("too high");
+    alert("too high");
   } else if (number < randomNumber) {
-    console.log("too low");
+    alert("too low");
   } else {
-    console.log("Correct");
+    alert("Correct");
     break; 
   }
 } while (true);
